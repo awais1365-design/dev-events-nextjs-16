@@ -1,5 +1,7 @@
-export { Event } from './event.model';
-export { Booking } from './booking.model';
+// Models (default exports)
+export { default as Event } from './event.model';
+export { default as Booking } from './booking.model';
 
-export type { Event as EventType, EventDocument } from './event.model';
-export type { Booking as BookingType, BookingDocument } from './booking.model';
+// Types
+export type { IEvent } from './event.model';
+export type { IBooking } from './booking.model';
